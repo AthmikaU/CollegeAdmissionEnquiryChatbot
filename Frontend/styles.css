@@ -171,3 +171,106 @@ body {
     color: #13294B;
     border: none;
 }
+
+
+/* ACCREDATION STYLES */
+.accreditations-container {
+    position: absolute; /* Fixes the position relative to the nearest positioned parent */
+    top: 100%; /* Moves it below the carousel */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts the alignment to truly center it */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 160px auto;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Adjust as per design */
+    z-index: 10; /* Ensures it stays above other content */
+    gap: 40px;
+}
+
+.accreditation {
+    text-align: center;
+}
+
+.accreditation img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.accreditation p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.accreditations-container {
+    margin-bottom: 10rem; /* Adds space below the accreditation symbols */
+}
+
+/* ABOUT SAHYADRI */
+section.container {
+    margin-top: 15rem; /* Ensures proper spacing from the previous section */
+    padding: 2rem; /* Adjust padding to make the container content more compact */
+    max-height: 570px;
+    border-radius: 10px;
+}
+
+.text-justify {
+    text-align: justify;
+    margin-left: 20px;
+    max-width: 650px;
+    font-size: 18px;
+}
+
+.text-lg, .text-3xl {
+    text-align: justify;
+    margin-left: 20px;
+    max-width: 650px;
+}
+
+.about-campus-btn {
+    border-radius: 30px; /* Rounded edges */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Button text size */
+    font-weight: bold; /* Bold text */
+    color: #13294B; /* Text color */
+    background-color: #ffffff; /* Button background color */
+    border: 2px solid #13294B; /* Optional: Add border for contrast */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    margin-left: 20px;
+}
+
+.about-campus-btn:hover {
+    background-color: #e2dada; /* Slight background change on hover */
+    color: #000000; /* Text color on hover */
+}
+
+.image-container {
+    flex: 1; /* Ensures the image container takes up equal space */
+    display: flex; /* Centers the image inside the container */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 30%; /* Prevents the image from overflowing the container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 15px; /* Adds rounded corners */
+    margin-bottom: 90%;
+    margin-top: -30%;
+    margin-left: 65%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better design */
+}
+
+
+
+
