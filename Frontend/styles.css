@@ -272,5 +272,22 @@ section.container {
 }
 
 
+/* LEARN MORE BUTTON  */
+.image-container1 {
+    flex: 1; /* Ensures the image container takes up equal space */
+    display: flex; /* Centers the image inside the container */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container1 img {
+    max-width: 30%; /* Prevents the image from overflowing the container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 15px; /* Adds rounded corners */
+    margin-bottom: 90%;
+    margin-top: -30%;
+    margin-left: 65%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better design */
+}
 
 
